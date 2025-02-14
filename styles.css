@@ -1,0 +1,22 @@
+:root{
+    /* VARIABLE COLORS */
+    --color1:#F3F7D4;
+    --color2:#CBE432;
+    --color3:#AE0D7A;
+    --color4:#B81484;
+    --color5:#340926;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-variant: small-caps;
+    color: var(--color5);
+    font-style: italic;
+}
+
+p {
+    color:var(--color3)
+}
