@@ -9,6 +9,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color1);
 }
 
 h1{
@@ -44,4 +45,136 @@ td{
     vertical-align: top;
     padding: 7px;
     color: var(--color5)
+}
+header{
+    background-color: var(--color3);
+    color: var(--color1);
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--color3);
+    color: var(--color1);
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+    text-align: center;
+    display:block;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: var(--color5);
+    color: var(--color1);
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+}
+
+nav a:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+aside h1{
+    color: var(--color2)
+}
+
+aside p{
+    color: var(--color2)
+}
+aside.top-left-blurb {
+    color:#fff;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    background:#00000098;
+    padding:2px 7px 2px 7px;
+    margin-right:15px;
+    font-size:20px;
+}
+
+form{
+    margin:14px; 
+    padding: 7px;
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+    background-color: var(--color3);
+
+}
+
+td.noborder{
+    border:none;
+    vertical-align: top;
+    padding:7px;
+    color:var(--color5);
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+input[type="submit"]{
+    background-color: var(--color5);
+    color: var(--color1);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+input[type="text"], input[type="email"]{
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+    border: 1px solid var(--color4);
+}
+
+input[type="text"]:focus{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+input[type="text"]:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+input[type="email"]:focus{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+input[type="email"]:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+textarea{
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+}
+textarea:focus{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+textarea:hover{
+    background-color: var(--color2);
+    color: var(--color3);
 }
