@@ -20,3 +20,28 @@ h1{
 p {
     color:var(--color3)
 }
+table{
+    margin:14px;
+    border-collapse: collapse;
+    border-spacing: 7px;
+    padding: 7px;
+    width: 70%;
+}
+caption{
+    font-style:italic;
+    color: var(--color4);
+    letter-spacing:2px;
+    text-decoration: underline;
+}
+th{
+    font-style:italic;
+    font-variant: small-caps;
+    color:var(--color5)
+}
+
+td{
+    border: 1px solid var(--color4);
+    vertical-align: top;
+    padding: 7px;
+    color: var(--color5)
+}
