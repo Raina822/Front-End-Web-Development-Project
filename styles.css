@@ -18,7 +18,7 @@ h1{
     font-style: italic;
 }
 
-p {
+p{
     color:var(--color3);
     text-align: center;
     padding: 20px;
@@ -26,7 +26,7 @@ p {
     
 }
 
-p.lesspadding{
+.lesspadding{
     color:var(--color3);
     text-align: center;
     padding: 7px;
@@ -69,12 +69,12 @@ header{
     border-radius: 7px;
     text-align: center;
 }
-h1.formheader{
+.formheader{
     text-align: left;
     padding-left: 450px;
 }
 
-p.formheader{
+.formheader{
     text-align: left;
     padding-left: 375px;
 }
@@ -89,7 +89,7 @@ img{
     display: block;
 }
 
-img.floatPic{
+.floatPic{
     float: right;
     margin-right:80px;
     border-radius: 7px;
@@ -134,7 +134,7 @@ aside h1{
 aside p{
     color: var(--color2);
 }
-aside.top-left-box {
+.top-left-box{
     color:#fff;
     position: absolute;
     top: 27%;
@@ -145,7 +145,7 @@ aside.top-left-box {
     font-size:20px;
 }
 
-aside.top-left-box-home {
+.top-left-box-home{
     color:#fff;
     position: Absolute;
     top: 27%;
@@ -156,7 +156,7 @@ aside.top-left-box-home {
     font-size:20px;
 }
 
-aside.box-home {
+.box-home{
     color:#fff;
     position: relative;
     top: 27%;
