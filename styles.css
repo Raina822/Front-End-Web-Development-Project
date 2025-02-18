@@ -16,6 +16,7 @@ h1{
     font-variant: small-caps;
     color: var(--color5);
     font-style: italic;
+    text-align: center;
 }
 
 p{
@@ -23,6 +24,7 @@ p{
     text-align: center;
     padding: 20px;
     font-size: larger;
+    text-align: center;
     
 }
 
@@ -82,7 +84,7 @@ img{
     border-radius: 7px;
     align-items: center;
     border-radius: 7px;
-    max-width: 100%;
+    max-width: 90%;
     max-height: 750px;
     margin-left:auto;
     margin-right: auto;
@@ -95,9 +97,6 @@ img{
     border-radius: 7px;
     max-width: 45%;
     max-height: 40%;
-}
-h1{
-    text-align: center;
 }
 
 nav{
