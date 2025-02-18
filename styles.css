@@ -91,7 +91,7 @@ img{
     display: block;
 }
 
-div.floatPic{
+img.floatPic{
     float: right;
     margin-right:80px;
     border-radius: 7px;
