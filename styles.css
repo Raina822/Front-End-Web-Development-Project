@@ -28,7 +28,7 @@ p{
     
 }
 
-.lesspadding{
+p.lesspadding{
     color:var(--color3);
     text-align: center;
     padding: 7px;
@@ -71,12 +71,12 @@ header{
     border-radius: 7px;
     text-align: center;
 }
-.formHeaderh1{
+h1.formHeaderh1{
     text-align: left;
     padding-left: 450px;
 }
 
-.formHeaderp{
+p.formHeaderp{
     text-align: left;
     padding-left: 375px;
 }
@@ -133,7 +133,7 @@ aside h1{
 aside p{
     color: var(--color2);
 }
-.top-left-box{
+aside.top-left-box{
     color:#fff;
     position: absolute;
     top: 27%;
@@ -144,7 +144,7 @@ aside p{
     font-size:20px;
 }
 
-.top-left-box-home{
+aside.top-left-box-home{
     color:#fff;
     position: Absolute;
     top: 27%;
@@ -155,7 +155,7 @@ aside p{
     font-size:20px;
 }
 
-.box-home{
+aside.box-home{
     color:#fff;
     position: relative;
     top: 27%;
