@@ -71,12 +71,12 @@ header{
     border-radius: 7px;
     text-align: center;
 }
-.formheader{
+.formHeaderh1{
     text-align: left;
     padding-left: 450px;
 }
 
-.formheader{
+.formHeaderp{
     text-align: left;
     padding-left: 375px;
 }
@@ -91,7 +91,7 @@ img{
     display: block;
 }
 
-.floatPic{
+div.floatPic{
     float: right;
     margin-right:80px;
     border-radius: 7px;
