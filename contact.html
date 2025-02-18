@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The State of Colorado</title>
+    <script src="script.js" ></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,41 +16,49 @@
         <a href="pueblo.html">Pueblo</a> 
         <a href="denver.html">Denver</a>
         <a href="cosprings.html">Colorado Springs</a>
-        <a href="funFacts.html">Fun Facts</a>
-        <a href="attractions.html">Attractions</a>
+        <a href="index.html#funfacts">Fun Facts</a>
+        <a href="#attractions">Attractions</a>
         <a href="contact.html">Contact</a>
         <a href="https://maps.cotrip.org/@-106.34053,39.13807,8?show=winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws" target="_blank">Map</a>
         
     </nav>
     <hr>
     <section>
-        <h1>Contact Us</h1>
-        <p>Fill out the form below to contact us.</p>
-    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
-        <table>
-            <tr>
-                <td class="noborder"><label for="firstname">First Name:</label></td>
-                <td class="noborder"><input type="text" id="firstname" name="firstname"></td>
-            </tr>
-            <tr>
-                <td class="noborder"><label for="lastname">Last Name:</label></td>
-                <td class="noborder"><input type="text" id="lastname" name="lastname"></td>
-            </tr>
-            <tr>
-                <td class="noborder"><label for="email1">Email:</label></td>
-                <td class="noborder"><input type="email" id="email1" name="email1"></td>
-            </tr>
-            <tr>
-                <td class="noborder"><label for="email2">Confirm Email:</label></td>
-                <td class="noborder"><input type="email" id="email2" name="email2"></td>
-            </tr>
-            <tr>
-                <td class="noborder"><label for="message">Message:</label></td>
-                <td class="noborder"><textarea id="message" name="message"></textarea></td>
-            </tr>
-        </table>   
-                <input type="submit" value="Submit">
+        <h1 class="formheader">Contact Us</h1>
+        <p class="formheader">Fill out the form below to contact us.</p>
+        <a href="https://www.colorado.com/media-room-photo-gallery"><img src="Pikes-Peak-Garden-of-the-Gods.jpg" alt="Picture of Pikes Peak and Garden of the Gods" width="70%" class="floatPic"></a>
+        <form>
+            <table>
+                <tr>
+                    <td class="noborder"><label for="firstname">First Name:</label></td>
+                    <td class="noborder"><input type="text" id="firstname" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td class="noborder"><label for="lastname">Last Name:</label></td>
+                    <td class="noborder"><input type="text" id="lastname" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td class="noborder"><label for="email1">Email:</label></td>
+                    <td class="noborder"><input type="email" id="email1" name="email1"></td>
+                </tr>
+                <tr>
+                    <td class="noborder"><label for="emailConfirm">Confirm Email:</label></td>
+                    <td class="noborder"><input type="email" id="emailConfirm" name="emailConfirm"></td>
+                </tr>
+                <tr>
+                    <td class="noborder"><label for="message">Message:</label></td>
+                    <td class="noborder"><textarea id="message" name="message"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="noborder"></td>
+                    <td class="noborder"><input type="submit" value="Submit"></td>
+
+                </tr>
+            </table>   
+                    
+            
+        </form> 
         
-    </form>
+    </section>
 </body>
 </html>
