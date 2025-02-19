@@ -261,3 +261,19 @@ ul.myul{
 a.aligntext{
     text-align: center;
 }
+
+figcaption{
+    font-style:italic;
+    color: var(--color4);
+    letter-spacing:2px;
+    padding: 7px;
+    margin-left: 20%;
+}
+
+.captionPic{
+    font-style:italic;
+    color: var(--color4);
+    letter-spacing:2px;
+    padding: 7px;
+    margin-left: 32%;
+}
